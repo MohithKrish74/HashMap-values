@@ -18,7 +18,7 @@ public class Main
             map.put(in.nextInt(), in.nextLine());
         }
         System.out.println("The Key Value pair is "+map);
-        System.out.print("The keys are ");
+        System.out.print("The Values are ");
         Iterator<String> iterate=map.values().iterator();
         while(iterate.hasNext())
         {
